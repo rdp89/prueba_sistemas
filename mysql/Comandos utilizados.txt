@@ -1,8 +1,8 @@
-Debido a que no he encontrado la forma de ejecutar los comandos mysql desde un Dockerfile, los pongo por aquÌ:
+Debido a que no he encontrado la forma de ejecutar los comandos mysql desde un Dockerfile, los pongo por aqu√≠:
 
 Con el paquete mysql-server ya instalado y arrancado (service mysql start), ponemos los siguientes comandos:
 
-#mysql -u root -p (pide contraseÒa root, establecida en la instalaciÛn del paquete mysql-server (pass: mysql))
+#mysql -u root -p (pide contrase√±a root, establecida en la instalaci√≥n del paquete mysql-server (pass: mysql))
 
 #create database prueba;
 
@@ -16,6 +16,6 @@ Con el paquete mysql-server ya instalado y arrancado (service mysql start), pone
 #create table ejemplo2 (campo1 varchar(20), campo2 varchar(20));
 #create table ejemplo3 (campo1 varchar(20), campo2 varchar(20));
 
-Con esta configuraciÛn tendremos lista nuestra imagen, el puerto por defecto del servicio mysql es el 3306/tcp.
+Con esta configuraci√≥n tendremos lista nuestra imagen, el puerto por defecto del servicio mysql es el 3306/tcp.
 
-La imagen est· subida tanto en esta misma carpeta como en mi repositorio de Docker: https://hub.docker.com/r/rdp898/mysql/
+La imagen est√° subida en mi repositorio de Docker: https://hub.docker.com/r/rdp898/mysql/
