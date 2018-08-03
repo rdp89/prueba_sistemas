@@ -1,0 +1,2 @@
+Para generar el contenedor docker desde el Dockerfile tendremos que usar el comando $docker build -t . (Estoy situado en la misma carpeta que el Dockerfile)
+Para ejecutar el contenedor tendremos que poner el comando $docker run -d -p 8080:80 nginx:final
