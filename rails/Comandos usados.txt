@@ -1,0 +1,25 @@
+Para el entorno de desarrollo he usado los comandos expuestos en el repositorio de la aplicación de Ruby en Git, 
+con todos los requisitos que requiere para su puesta en marcha.
+
+Para la base de datos PostgreSQL, partiendo de la imagen ubuntu:16.04:
+
+He instalado el paquete: apt-get install posgresql.
+
+Comandos usados a continuación:
+
+#psql
+
+#ALTER USER postgres WITH PASSWORD 'paswword';
+
+#CREATE USER rails WITH PASSWORD 'rails';
+
+#CREATE DATABASE prueba_rails WITH OWNER rails;
+
+Nota: Con el usuario rails ya creado en nuestro ubuntu, procedemos a iniciar sesión en postgres:
+
+#psql -d prueba_rails -u rails -W;
+
+#create table acceso ( fecha_acceso date );
+
+Las imágenes se encuentran en: https://hub.docker.com/r/rdp898/rails/tags
+

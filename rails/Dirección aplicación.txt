@@ -1,0 +1,5 @@
+Aquí dejo la url de la app resultante después de seguir los pasos del fichero README.md del repo de Git:
+
+https://protected-badlands-85582.herokuapp.com/
+
+Las imágenes están subidas a mi dockerhub: https://hub.docker.com/r/rdp898/rails/tags/
